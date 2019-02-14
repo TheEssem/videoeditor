@@ -6,6 +6,9 @@
   <body>
     <canvas id="mm-canvas" width="200" height="100"></canvas>
     <script src="moviemasher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/script.js/2.5.9/script.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/opentype.js/0.11.0/opentype.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tiny-inflate@1.0.2/index.min.js"></script>
     <script>
       var context = document.getElementById("mm-canvas").getContext('2d');
       var mm_player = MovieMasher.player({canvas_context: context, autoplay: true});
